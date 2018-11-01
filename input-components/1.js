@@ -1,7 +1,7 @@
 import React from "react";
 
 //All States
-//pulled from ../AnnualReport/VirginiaAdditionalInformation.js
+//pulled from ../AnnualReport/WashingtonAdditionalInformation.js
 
 const Ein = ({}) => {
   return (
