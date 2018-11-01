@@ -28,33 +28,33 @@ const ShareholdersOwn20 = ({}) => {
           className="select2 select2-container select2-container--default"
           dir="ltr"
           style={{
-              width: "100%"
+            width: "100%"
           }}
         >
           <span className="selection">
+            <span
+              className="select2-selection select2-selection--single"
+              role="combobox"
+              aria-haspopup="true"
+              aria-expanded="false"
+              tabIndex={0}
+              aria-labelledby="select2-shareholders_own_20_percent-0z-container"
+            >
               <span
-                  className="select2-selection select2-selection--single"
-                  role="combobox"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  tabIndex={0}
-                  aria-labelledby="select2-shareholders_own_20_percent-0z-container"
+                className="select2-selection__rendered"
+                id="select2-shareholders_own_20_percent-0z-container"
               >
-                  <span
-                      className="select2-selection__rendered"
-                      id="select2-shareholders_own_20_percent-0z-container"
-                  >
-                      <span className="select2-selection__placeholder">
-                          Select One
-                      </span>
-                  </span>
-                  <span
-                      className="select2-selection__arrow"
-                      role="presentation"
-                  >
-                      <b role="presentation" />
-                  </span>
+                <span className="select2-selection__placeholder">
+                  Select One
+                </span>
               </span>
+              <span
+                className="select2-selection__arrow"
+                role="presentation"
+              >
+                <b role="presentation" />
+              </span>
+            </span>
           </span>
           <span
             className="dropdown-wrapper"
