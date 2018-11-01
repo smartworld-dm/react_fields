@@ -1,27 +1,24 @@
 import React from "react";
 
 //All States
-//pulled from ../AnnualReport/TexasAdditionalInformation.js
+//pulled from ../AnnualReport/VirginiaAdditionalInformation.js
 
-const Ein = ({}) => {
+const WestVirginiaEmployees = ({}) => {
   return (
     <div className="col-md-6">
       <div className="form-group">
         <label>
-          Your Federal Tax ID (EIN):{" "}
+          Number of West Virginia employees:{" "}
           <span className="text-danger">*</span>
         </label>
         <input
           type="text"
-          name="ein_arkansas"
-          data-mask="99-9999999"
-          placeholder="EIN"
+          name="west_virginia_employees"
           className="form-control"
-          defaultValue={piloted.ein}
         />
       </div>
     </div>
   );
 };
 
-export default Ein;
+export default WestVirginiaEmployees;

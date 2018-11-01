@@ -3,25 +3,21 @@ import React from "react";
 //All States
 //pulled from ../AnnualReport/VirginiaAdditionalInformation.js
 
-const Ein = ({}) => {
+const NaicsCode = ({}) => {
   return (
     <div className="col-md-6">
       <div className="form-group">
         <label>
-          Your Federal Tax ID (EIN):{" "}
-          <span className="text-danger">*</span>
+          NAICS Code: <span className="text-danger">*</span>
         </label>
         <input
           type="text"
-          name="ein_arkansas"
-          data-mask="99-9999999"
-          placeholder="EIN"
+          name="naics_code"
           className="form-control"
-          defaultValue={piloted.ein}
         />
       </div>
     </div>
   );
 };
 
-export default Ein;
+export default NaicsCode;
