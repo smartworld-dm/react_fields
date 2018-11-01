@@ -23,11 +23,11 @@ const OwnRealProperty = ({}) => {
           <option value="Yes">Yes</option>
         </select>
         <span
-            className="select2 select2-container select2-container--default"
-            dir="ltr"
-            style={{
-              width: "100%"
-            }}
+          className="select2 select2-container select2-container--default"
+          dir="ltr"
+          style={{
+            width: "100%"
+          }}
         >
           <span className="selection">
             <span

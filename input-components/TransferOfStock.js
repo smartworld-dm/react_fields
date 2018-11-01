@@ -34,12 +34,12 @@ const TransferOfStock = ({}) => {
         >
             <span className="selection">
               <span
-                  className="select2-selection select2-selection--single"
-                  role="combobox"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  tabIndex={0}
-                  aria-labelledby="select2-transfer_of_stock-gz-container"
+                className="select2-selection select2-selection--single"
+                role="combobox"
+                aria-haspopup="true"
+                aria-expanded="false"
+                tabIndex={0}
+                aria-labelledby="select2-transfer_of_stock-gz-container"
               >
               <span
                 className="select2-selection__rendered"
