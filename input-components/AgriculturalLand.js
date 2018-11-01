@@ -1,7 +1,7 @@
 import React from "react";
 
 //All States
-//pulled from ../AnnualReport/IowaAddtionalInformation.js
+//pulled from ../AnnualReport/IowaAdditionalInformation.js
 
 const AgriculturalLand = ({}) => {
   return (
