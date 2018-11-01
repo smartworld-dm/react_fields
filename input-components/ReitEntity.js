@@ -1,0 +1,67 @@
+import React from "react";
+
+//All States
+//pulled from ../AnnualReport/TexasAdditionalInformation.js
+
+const ReitEntity = ({}) => {
+  return (
+    <div className="col-md-4">
+      <div className="form-group">
+        <label>
+          Is this entity a Real Estate Investment Trust (REIT)
+          that meets the qualifications specified in section
+          171.0002(c)(4)?{" "}
+          <span className="text-danger">*</span>
+        </label>
+        <select
+          name="reit_entity"
+          data-placeholder="Select One"
+          className="select select2-hidden-accessible"
+          tabIndex={-1}
+          aria-hidden="true"
+        >
+          <option value="No">No</option>
+          <option value="Yes">Yes</option>
+        </select>
+        <span
+          className="select2 select2-container select2-container--default"
+          dir="ltr"
+          style={{
+            width: "100%"
+          }}
+        >
+          <span className="selection">
+            <span
+              className="select2-selection select2-selection--single"
+              role="combobox"
+              aria-haspopup="true"
+              aria-expanded="false"
+              tabIndex={0}
+              aria-labelledby="select2-reit_entity-wp-container"
+            >
+              <span
+                className="select2-selection__rendered"
+                id="select2-reit_entity-wp-container"
+                title="No"
+              >
+                No
+              </span>
+              <span
+                className="select2-selection__arrow"
+                role="presentation"
+              >
+                <b role="presentation" />
+              </span>
+            </span>
+          </span>
+          <span
+            className="dropdown-wrapper"
+            aria-hidden="true"
+          />
+        </span>
+      </div>
+    </div>
+  );
+};
+
+export default ReitEntity;
